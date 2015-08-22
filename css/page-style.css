@@ -1,6 +1,37 @@
 body {
-    background-color: LightGray;
+    background-color: #FFF;
 }
-div {
-    border: 1px solid Chocolate;
+.header-div {
+  width: 60rem;
+  height: 4.375rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+#logo{
+  width: 1.65rem;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+.header-ul {
+  list-style: none;
+  float: right;
+}
+.header-ul > li{
+  display: inline-block;
+  padding:.5rem;
+}
+li {
+  color: #838994;
+  text-decoration: none;
+  font-family:'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+.active{
+  color: #4c5058;
+  font-weight: 500;
+}
+li:hover {
+  
 }
